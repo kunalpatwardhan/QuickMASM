@@ -1,0 +1,116 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Kunal\Vb Pro\masm-ext\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+E:\WINDOWS\system32\shlwapi.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+e:\windows\system32\comdlg32.dll=
+d:\kunal\masm\masm.exe=
+d:\kunal\masm\ml.exe=
+d:\kunal\masm\link.exe=
+d:\kunal\masm\masmref.doc=
+d:\kunal\masm\ml.err=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Kunal\Vb Pro\masm-ext\QuickASM.exe=Yes
+E:\WINDOWS\system32\MSVBVM60.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINDOWS\system32\comdlg32.ocx=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\system32\VB6STKIT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\WINDOWS\system32\comdlg32.dll=Yes
+D:\Kunal\masm\MASM.EXE=Yes
+D:\Kunal\masm\ML.EXE=Yes
+D:\Kunal\masm\LINK.EXE=Yes
+D:\Kunal\masm\MASMREF.DOC=Yes
+D:\Kunal\masm\ML.ERR=Yes
+E:\WINDOWS\system32\shlwapi.dll=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Kunal\Vb Pro\masm-ext\QuickASM.exe=$(AppPath)
+E:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\WINDOWS\system32\comdlg32.dll=$(WinSysPathSysFile)
+D:\Kunal\masm\MASM.EXE=$(AppPath)
+D:\Kunal\masm\ML.EXE=$(AppPath)
+D:\Kunal\masm\LINK.EXE=$(AppPath)
+D:\Kunal\masm\MASMREF.DOC=$(AppPath)
+D:\Kunal\masm\ML.ERR=$(AppPath)
+E:\WINDOWS\system32\shlwapi.dll=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Kunal\Vb Pro\masm-ext\QuickASM.exe=No
+D:\Kunal\masm\MASM.EXE=No
+D:\Kunal\masm\ML.EXE=No
+D:\Kunal\masm\LINK.EXE=No
+D:\Kunal\masm\MASMREF.DOC=No
+D:\Kunal\masm\ML.ERR=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=QuickASM
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Kunal\Vb Pro\masm-ext\Package
+ProjectFolder=D:\Kunal\Vb Pro\masm-ext
+ServerSideCab=
+File1=D:\Kunal\Vb Pro\masm-ext\Package\setup.exe
+File2=D:\Kunal\Vb Pro\masm-ext\Package\Setup.Lst
+File3=D:\Kunal\Vb Pro\masm-ext\Package\QuickASM.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=QuickASM
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|QuickASM]
+Icon1=QuickASM.exe
+Title1=QuickASM
+StartIn1=$(AppPath)
+Key1=Icon1
